@@ -1,0 +1,46 @@
+
+.m-bd li div.m-coures{
+	width: 485px;
+	min-height: 250px;
+	position: absolute;
+	top:-10px;
+	left: -10px;
+	display: none;
+	box-sizing: border-box;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px #333;
+	padding: 10px;
+	cursor: pointer;
+}
+.m-bd li:hover div.m-coures{
+	display: block;
+	z-index: 2;
+}
+.m-coures img{
+	float: left;
+	margin-right: 10px;
+	width: 223px;
+	height: 124px;
+}
+.m-coures h1{
+	font: 18px "微软雅黑";
+	color: #333;
+	padding-top: 5px;
+}
+.m-coures p:first-of-type{
+	margin:13px 0;
+}
+.m-coures p{
+	font: 12px "微软雅黑";
+	color: #666;	
+	margin:6px 0;	
+}
+.m-coures .botom{
+	font: 14px "微软雅黑";
+	color: #666;	
+	margin:10px 0;
+	padding: 20px;
+	background-color: #f8f8f8;
+	line-height: 24px;
+}
+
